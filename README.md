@@ -1,3 +1,5 @@
+## Project Structure
+
 form_auto_rag/
 ├── main.py
 ├── form_reader/

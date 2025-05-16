@@ -1,22 +1,17 @@
 ## Notes
-text_cleaner.py: làm sạch và chuẩn hóa text → ✔ đã có test
-
-tokenizer.py: dùng tokenizer của transformers, hỗ trợ tokenize + detokenize → ✔ test ok
-
-stopwords.py: lọc từ dừng bằng nltk → ✔ test chạy ổn
-
-text_utils.py: bạn có thể thêm dần, ví dụ:
-
-đo độ dài trung bình câu
-
-đếm số từ, số câu
-
-kiểm tra có chứa số, dấu câu, v.v.
-
-tests/: dùng .ipynb để test từng file → dễ debug, xem log rõ ràng
+- text_cleaner.py: làm sạch và chuẩn hóa text → ✔ đã có test
+- tokenizer.py: dùng tokenizer của transformers, hỗ trợ tokenize + detokenize → ✔ test ok
+- stopwords.py: lọc từ dừng bằng nltk → ✔ test chạy ổn
+- text_utils.py: bạn có thể thêm dần, ví dụ:
+- đo độ dài trung bình câu
+- đếm số từ, số câu
+- kiểm tra có chứa số, dấu câu, v.v.
+- tests/: dùng .ipynb để test từng file → dễ debug, xem log rõ ràng
 
 
 ## Structure
+
+
 '''
 utils/
 ├── __init__.py
